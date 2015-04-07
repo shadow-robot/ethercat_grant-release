@@ -1,0 +1,8 @@
+ros-indigo-ethercat-grant (0.1.0-1saucy) saucy; urgency=high
+
+  * Add postinstallation script
+  * Change package name
+
+ -- Shadow Robot's software team <software@shadowrobot.com>  Mon, 06 Apr 2015 23:00:00 -0000
+
+
