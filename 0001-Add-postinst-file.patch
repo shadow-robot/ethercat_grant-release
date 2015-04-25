@@ -1,7 +1,7 @@
-From a665754eb9b3a47a387b948115d89191f72a936a Mon Sep 17 00:00:00 2001
+From f5c5ce13acffff35e2044afc5cbb9e7f2c79cea0 Mon Sep 17 00:00:00 2001
 From: Toni Oliver <toni.oliver.d@gmail.com>
 Date: Tue, 7 Apr 2015 19:42:13 +0100
-Subject: [PATCH] Add postinst file
+Subject: [PATCH 1/2] Add postinst file
 
 ---
  debian/postinst | 16 ++++++++++++++++

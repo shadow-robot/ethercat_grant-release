@@ -1,0 +1,30 @@
+From 8845fc89fadfc1b9c585e2095c6d34c056c86633 Mon Sep 17 00:00:00 2001
+From: Toni Oliver <toni.oliver.d@gmail.com>
+Date: Fri, 10 Apr 2015 17:10:45 +0100
+Subject: [PATCH 2/2] Modify postinst script
+
+---
+ debian/postinst | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+diff --git a/debian/postinst b/debian/postinst
+index d86d142..40b1c1a 100755
+--- a/debian/postinst
++++ b/debian/postinst
+@@ -1,12 +1,10 @@
+ #!/bin/sh
+ set -e
+ ROS_DISTRO=indigo
+-PKG=ethercat_grant
+ EXEC_NAME=ethercat_grant
+ case "$1" in
+  configure)
+-   cp /opt/ros/$ROS_DISTRO/lib/$PKG/$EXEC_NAME /usr/local/bin/
+-   chmod +s /usr/local/bin/$EXEC_NAME
++   chmod +s /opt/ros/$ROS_DISTRO/bin/$EXEC_NAME
+    ;;
+  *)
+        echo "postinst called with unknown argument \`$1'" >&2
+-- 
+1.9.1
+
