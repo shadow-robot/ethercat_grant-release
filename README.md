@@ -1,3 +1,24 @@
+## ethercat_grant (indigo) - 0.1.1-1
+
+The packages in the `ethercat_grant` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ethercat_grant --track indigo --rosdistro indigo` on `Sat, 25 Apr 2015 22:15:44 -0000`
+
+The `ethercat_grant` package was released.
+
+Version of package(s) in repository `ethercat_grant`:
+- upstream repository: https://github.com/shadow-robot/ethercat_grant.git
+- release repository: https://github.com/shadow-robot/ethercat_grant-release.git
+- rosdistro version: `0.1.1-0`
+- old version: `0.1.1-0`
+- new version: `0.1.1-1`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## ethercat_grant (indigo) - 0.1.1-0
 
 The packages in the `ethercat_grant` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ethercat_grant --track indigo --rosdistro indigo` on `Fri, 10 Apr 2015 16:01:09 -0000`
