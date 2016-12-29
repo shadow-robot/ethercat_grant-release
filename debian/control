@@ -1,0 +1,13 @@
+Source: ros-kinetic-ethercat-grant
+Section: misc
+Priority: extra
+Maintainer: Shadow Robot's software team <software@shadowrobot.com>
+Build-Depends: debhelper (>= 9.0.0), libcap-dev, ros-kinetic-catkin, ros-kinetic-roscpp
+Homepage: http://www.shadowrobot.com/
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ethercat-grant
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcap-dev, ros-kinetic-roscpp
+Description: Makes it possible to run the ros_ethercat_loop without using sudo.
+ Forked from pr2-grant
