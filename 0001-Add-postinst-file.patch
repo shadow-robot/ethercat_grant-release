@@ -1,0 +1,33 @@
+From 27e4904d75c6ad933034b0a395e733374839306c Mon Sep 17 00:00:00 2001
+From: Toni Oliver <toni.oliver.d@gmail.com>
+Date: Thu, 29 Dec 2016 17:44:45 +0100
+Subject: [PATCH] Add postinst file
+
+---
+ debian/postinst | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100755 debian/postinst
+
+diff --git a/debian/postinst b/debian/postinst
+new file mode 100755
+index 0000000..3bcc62a
+--- /dev/null
++++ b/debian/postinst
+@@ -0,0 +1,14 @@
++#!/bin/sh
++set -e
++ROS_DISTRO=kinetic
++EXEC_NAME=ethercat_grant
++case "$1" in
++ configure)
++   chmod +s /opt/ros/$ROS_DISTRO/bin/$EXEC_NAME
++   ;;
++ *)
++       echo "postinst called with unknown argument \`$1'" >&2
++       exit 0
++   ;;
++esac
++#DEBHELPER#
+-- 
+1.9.1
+
