@@ -1,3 +1,26 @@
+## ethercat_grant (kinetic) - 0.2.0-0
+
+The packages in the `ethercat_grant` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic ethercat_grant --edit` on `Thu, 29 Dec 2016 15:57:01 -0000`
+
+The `ethercat_grant` package was released.
+
+Version of package(s) in repository `ethercat_grant`:
+
+- upstream repository: https://github.com/shadow-robot/ethercat_grant.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## ethercat_grant (indigo) - 0.1.1-1
 
 The packages in the `ethercat_grant` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ethercat_grant --track indigo --rosdistro indigo` on `Sat, 25 Apr 2015 22:15:44 -0000`
