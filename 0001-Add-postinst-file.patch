@@ -1,4 +1,4 @@
-From 27e4904d75c6ad933034b0a395e733374839306c Mon Sep 17 00:00:00 2001
+From 95f61874ee0ed82ba31a14908766c92592e73688 Mon Sep 17 00:00:00 2001
 From: Toni Oliver <toni.oliver.d@gmail.com>
 Date: Thu, 29 Dec 2016 17:44:45 +0100
 Subject: [PATCH] Add postinst file
