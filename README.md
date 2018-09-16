@@ -1,3 +1,26 @@
+## ethercat_grant (melodic) - 0.2.5-0
+
+The packages in the `ethercat_grant` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic ethercat_grant` on `Sun, 16 Sep 2018 20:20:33 -0000`
+
+The `ethercat_grant` package was released.
+
+Version of package(s) in repository `ethercat_grant`:
+
+- upstream repository: https://github.com/shadow-robot/ethercat_grant.git
+- release repository: https://github.com/shadow-robot/ethercat_grant-release.git
+- rosdistro version: `0.2.4-0`
+- old version: `0.2.4-0`
+- new version: `0.2.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## ethercat_grant (melodic) - 0.2.4-0
 
 The packages in the `ethercat_grant` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic ethercat_grant` on `Thu, 13 Sep 2018 16:56:11 -0000`
