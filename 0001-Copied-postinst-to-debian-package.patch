@@ -1,4 +1,4 @@
-From 91721c851ddee209f0b38466b6a561662bf05d6e Mon Sep 17 00:00:00 2001
+From d3c23e8c545331a4aef2fdbe0a64924e55be1abc Mon Sep 17 00:00:00 2001
 From: Andriy Petlovanyy <andriy.petlovanyy@noemail.com>
 Date: Fri, 14 Sep 2018 09:43:10 +0000
 Subject: [PATCH] Copied postinst to debian package
