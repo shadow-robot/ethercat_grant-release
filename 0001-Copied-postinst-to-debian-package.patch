@@ -1,0 +1,33 @@
+From 91721c851ddee209f0b38466b6a561662bf05d6e Mon Sep 17 00:00:00 2001
+From: Andriy Petlovanyy <andriy.petlovanyy@noemail.com>
+Date: Fri, 14 Sep 2018 09:43:10 +0000
+Subject: [PATCH] Copied postinst to debian package
+
+---
+ debian/postinst | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100755 debian/postinst
+
+diff --git a/debian/postinst b/debian/postinst
+new file mode 100755
+index 0000000..56eb647
+--- /dev/null
++++ b/debian/postinst
+@@ -0,0 +1,14 @@
++#!/bin/sh
++set -e
++ROS_DISTRO=melodic
++EXEC_NAME=ethercat_grant
++case "$1" in
++ configure)
++   chmod +s /opt/ros/$ROS_DISTRO/bin/$EXEC_NAME
++   ;;
++ *)
++       echo "postinst called with unknown argument \`$1'" >&2
++       exit 0
++   ;;
++esac
++#DEBHELPER#
+-- 
+2.7.4
+
