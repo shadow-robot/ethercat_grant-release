@@ -1,5 +1,3 @@
-## ethercat_grant (noetic) - 0.3.0-1
-
 ## ethercat_grant (melodic) - 0.2.5-0
 
 The packages in the `ethercat_grant` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic ethercat_grant` on `Sun, 16 Sep 2018 20:20:33 -0000`
