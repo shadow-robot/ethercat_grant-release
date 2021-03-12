@@ -10,7 +10,7 @@ Version of package(s) in repository `ethercat_grant`:
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
-- new version: `0.3.0-1`
+- new version: `0.3.0`
 
 Versions of tools used:
 
