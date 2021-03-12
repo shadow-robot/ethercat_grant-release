@@ -1,4 +1,4 @@
-## ethercat_grant (noetic) - 0.3.0-1
+## ethercat_grant (noetic) - 0.3.0
 
 The packages in the `ethercat_grant` repository were released into the `noetic` distro by running `/usr/bin/bloom-release ethercat_grant --track noetic --rosdistro noetic` on `Fri, 12 Mar 2021 13:01:22 -0000`
 
