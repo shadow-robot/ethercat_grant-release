@@ -94,4 +94,4 @@ tracks:
     ros_distro: noetic
     vcs_type: git
     vcs_uri: https://github.com/shadow-robot/ethercat_grant.git
-    version: : 0.2.6
+    version: : {0.2.6}
