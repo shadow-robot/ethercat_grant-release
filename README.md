@@ -1,5 +1,28 @@
 ## ethercat_grant (noetic) - 0.2.5-1
 
+The packages in the `ethercat_grant` repository were released into the `noetic` distro by running `/usr/bin/bloom-release ethercat_grant --rosdistro noetic --new-track` on `Tue, 27 Apr 2021 08:51:10 -0000`
+
+The `ethercat_grant` package was released.
+
+Version of package(s) in repository `ethercat_grant`:
+
+- upstream repository: https://github.com/shadow-robot/ethercat_grant.git
+- release repository: https://github.com/shadow-robot/ethercat_grant-release.git
+- rosdistro version: `0.2.5-3`
+- old version: `null`
+- new version: `0.2.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
+## ethercat_grant (noetic) - 0.2.5-1
+
 The packages in the `ethercat_grant` repository were released into the `noetic` distro by running `/usr/bin/bloom-release ethercat_grant --rosdistro noetic` on `Mon, 15 Mar 2021 10:03:57 -0000`
 
 The `ethercat_grant` package was released.
