@@ -1,0 +1,24 @@
+From 79290a9eab506e2ec28ad28bbaafc22f3afc978e Mon Sep 17 00:00:00 2001
+From: maxzieba <77073326+maxzieba@users.noreply.github.com>
+Date: Tue, 27 Apr 2021 16:11:17 +0200
+Subject: [PATCH] Update postinst
+
+---
+ scripts/postinst | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/scripts/postinst b/scripts/postinst
+index 56eb647..2eb05fc 100755
+--- a/scripts/postinst
++++ b/scripts/postinst
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ set -e
+-ROS_DISTRO=melodic
++ROS_DISTRO=noetic
+ EXEC_NAME=ethercat_grant
+ case "$1" in
+  configure)
+-- 
+2.25.1
+
