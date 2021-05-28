@@ -1,4 +1,4 @@
-From 75b37f6ff7be6439b59b3266e253215fa92ccc28 Mon Sep 17 00:00:00 2001
+From b7445e32ffd9efc6b8187d5ad14a29cba36ae7c9 Mon Sep 17 00:00:00 2001
 From: maxzieba <77073326+maxzieba@users.noreply.github.com>
 Date: Fri, 28 May 2021 11:55:52 +0100
 Subject: [PATCH 2/2] Copied postinst to debian package
