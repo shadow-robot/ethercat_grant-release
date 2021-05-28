@@ -1,0 +1,33 @@
+From bbe23523b77cc87968edbfdba3921a99045e868d Mon Sep 17 00:00:00 2001
+From: maxzieba <77073326+maxzieba@users.noreply.github.com>
+Date: Fri, 28 May 2021 11:55:52 +0100
+Subject: [PATCH 2/2] Copied postinst to debian package
+
+---
+ debian/postinst | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 debian/postinst
+
+diff --git a/debian/postinst b/debian/postinst
+new file mode 100644
+index 0000000..2eb05fc
+--- /dev/null
++++ b/debian/postinst
+@@ -0,0 +1,14 @@
++#!/bin/sh
++set -e
++ROS_DISTRO=noetic
++EXEC_NAME=ethercat_grant
++case "$1" in
++ configure)
++   chmod +s /opt/ros/$ROS_DISTRO/bin/$EXEC_NAME
++   ;;
++ *)
++       echo "postinst called with unknown argument \`$1'" >&2
++       exit 0
++   ;;
++esac
++#DEBHELPER#
+-- 
+2.25.1
+

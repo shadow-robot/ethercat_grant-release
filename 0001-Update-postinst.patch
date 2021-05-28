@@ -1,7 +1,7 @@
-From 6b1311d4d7bf1bb8b33e5e3e0a4c59110024e890 Mon Sep 17 00:00:00 2001
+From af7db2d3a2bc8da4ed6639724102604c389e0758 Mon Sep 17 00:00:00 2001
 From: maxzieba <77073326+maxzieba@users.noreply.github.com>
 Date: Tue, 27 Apr 2021 16:11:17 +0200
-Subject: [PATCH] Update postinst
+Subject: [PATCH 1/2] Update postinst
 
 ---
  scripts/postinst | 2 +-
