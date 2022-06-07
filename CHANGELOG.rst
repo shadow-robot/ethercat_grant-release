@@ -1,15 +1,16 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package ethercat_grant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-0.3.1 (2022-0607)
------------------
+0.3.2 (2022-06-07)
+------------------
+* Fixing CHANGELOG
+* Contributors: Fotios
+
+0.3.1 (2022-06-07)
+------------------
 * Updating README file
 
 0.3.0 (2021-03-15)
-------------------
-* Migrated to Noetic
-
-0.3.1 (2022-06-07)
 ------------------
 * Updating README file
 * Create postinst
